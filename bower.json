@@ -1,6 +1,6 @@
 {
   "name": "purescript-MIME",
-  "author":"Isaac Shapira <fresheyeball@gmail.com>"
+  "author":"Isaac Shapira <fresheyeball@gmail.com>",
   "private": false,
   "ignore": [
     "**/.*",
