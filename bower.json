@@ -1,0 +1,16 @@
+{
+  "name": "purescript-MIME",
+  "author":"Isaac Shapira <fresheyeball@gmail.com>"
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "**/*Test.purs",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "example",
+    "tmp"
+  ],
+  "dependencies": {},
+  "version": "0.0.0"
+}
