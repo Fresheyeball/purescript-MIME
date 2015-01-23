@@ -2,6 +2,15 @@ module Network.MIME where
 
 foreign import data MIME :: *
 
+foreign import asString "function asString(x){ return x; }" :: MIME -> String
+
+instance showMIME :: Show MIME where
+  show = asString
+
+instance eqMIME :: Eq MIME where
+  (==) = refEq
+  (/=) = refIneq
+
 foreign import xWorldX3dmf "var xWorldX3dmf = 'x-world/x-3dmf';" :: MIME
 foreign import applicationOctetStream "var applicationOctetStream = 'application/octet-stream';" :: MIME
 foreign import applicationXAuthorwareBin "var applicationXAuthorwareBin = 'application/x-authorware-bin';" :: MIME
