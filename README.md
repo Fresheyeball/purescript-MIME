@@ -8,6 +8,15 @@
     data MIME :: *
 
 
+### Type Class Instances
+
+
+    instance eqMIME :: Eq MIME
+
+
+    instance showMIME :: Show MIME
+
+
 ### Values
 
 
@@ -675,6 +684,9 @@
 
 
     applicationZip :: MIME
+
+
+    asString :: MIME -> String
 
 
     audioAiff :: MIME
