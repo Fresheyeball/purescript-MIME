@@ -1,6 +1,6 @@
 # Module Documentation
 
-## Module Data.MIME
+## Module Network.MIME
 
 ### Types
 

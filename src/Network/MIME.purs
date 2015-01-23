@@ -1,4 +1,4 @@
-module Data.MIME where
+module Network.MIME where
 
 foreign import data MIME :: *
 
