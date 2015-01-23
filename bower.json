@@ -1,6 +1,6 @@
 {
   "name": "purescript-mime",
-  "author":"Isaac Shapira <fresheyeball@gmail.com>",
+  "author": "Isaac Shapira <fresheyeball@gmail.com>",
   "private": false,
   "ignore": [
     "**/.*",
@@ -12,5 +12,5 @@
     "tmp"
   ],
   "dependencies": {},
-  "version": "0.0.0"
+  "version": "0.0.1"
 }
